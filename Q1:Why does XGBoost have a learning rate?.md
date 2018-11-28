@@ -1,9 +1,11 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
-</script>
-
-
 Source:
 > https://stats.stackexchange.com/questions/354484/why-does-xgboost-have-a-learning-rate
+
+## To include the Equations 
+'''
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
+</script>
+'''
 
 ## Why does XGBoost have a learning rate?
 
