@@ -1,7 +1,8 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
+</script>
+
 Source:
 > https://stats.stackexchange.com/questions/354484/why-does-xgboost-have-a-learning-rate
-
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
 
 ## Why does XGBoost have a learning rate?
 
@@ -46,7 +47,6 @@ with the larger learning rate rapidly reduce the loss,
 but also rapidly reach a plateau. 
 Here's an example comparing the same models on the same data with different learning rates. 
 The smaller learning rate more slowly declines, and it attains a lower loss.
-
 
 $$F_m(x) = F_{m-1}(x) + \eta \cdot \gamma_{lm} \mathbf{1}(x \in R_{lm})$$
 
