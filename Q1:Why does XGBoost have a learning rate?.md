@@ -1,5 +1,5 @@
-
->> https://stats.stackexchange.com/questions/354484/why-does-xgboost-have-a-learning-rate
+Source:
+> https://stats.stackexchange.com/questions/354484/why-does-xgboost-have-a-learning-rate
 
 ## Why does XGBoost have a learning rate?
 
@@ -10,11 +10,11 @@ does it has the same meaning as Neural Net's "time step"?
 
 Further explanation can be found in "XGBoost: A Scalable Tree Boosting System" by Tianqi Chen, Carlos Guestrin.
 
->> Besides the regularized objective mentioned in Sec. 2.1, two additional techniques are used to further prevent overfitting. 
->> The first technique is shrinkage introduced by Friedman [11]. 
->> Shrinkage scales newly added weights by a factor η after each step of tree boosting. 
->> Similar to a learning rate in tochastic [sic] optimization, 
->> shrinkage reduces the influence of each individual tree and leaves space for future trees to improve the model.
+> Besides the regularized objective mentioned in Sec. 2.1, two additional techniques are used to further prevent overfitting. 
+> The first technique is shrinkage introduced by Friedman [11]. 
+> Shrinkage scales newly added weights by a factor η after each step of tree boosting. 
+> Similar to a learning rate in tochastic [sic] optimization, 
+> shrinkage reduces the influence of each individual tree and leaves space for future trees to improve the model.
 
 We can consult the citation for further information. In "Stochastic Gradient Boosting," Friedman writes
 
