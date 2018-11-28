@@ -46,6 +46,8 @@ Here's an example comparing the same models on the same data with different lear
 The smaller learning rate more slowly declines, and it attains a lower loss.
 
 
+$$F_m(x) = F_{m-1}(x) + \eta \cdot \gamma_{lm} \mathbf{1}(x \in R_{lm})$$
+
 which is a math-y way of saying that at round m, 
 the prediction function is the previous round's prediction Fm−1 plus a scalar multiple η of the new prediction. 
 The expression γlm1(x∈Rlm) represents the solution to an optimization and 
