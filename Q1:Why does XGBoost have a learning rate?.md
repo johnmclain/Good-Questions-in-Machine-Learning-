@@ -18,8 +18,8 @@ Further explanation can be found in "XGBoost: A Scalable Tree Boosting System" b
 
 We can consult the citation for further information. In "Stochastic Gradient Boosting," Friedman writes
 
->> that the "shrinkage" parameter 0<η≤1 controls the learning rate of the procedure.
->> Empirically (Friedman 1999), it was found that small values (η≤0.1) lead to much better generalization error.
+> that the "shrinkage" parameter 0<η≤1 controls the learning rate of the procedure.
+> Empirically (Friedman 1999), it was found that small values (η≤0.1) lead to much better generalization error.
 
 (Except that I've edited the quote to use a different symbol for clarity and consistency with the rest of this thread.)
 
@@ -44,3 +44,9 @@ with the larger learning rate rapidly reduce the loss,
 but also rapidly reach a plateau. 
 Here's an example comparing the same models on the same data with different learning rates. 
 The smaller learning rate more slowly declines, and it attains a lower loss.
+
+
+which is a math-y way of saying that at round m, 
+the prediction function is the previous round's prediction Fm−1 plus a scalar multiple η of the new prediction. 
+The expression γlm1(x∈Rlm) represents the solution to an optimization and 
+an indicator function for whether x is a member of that region.
