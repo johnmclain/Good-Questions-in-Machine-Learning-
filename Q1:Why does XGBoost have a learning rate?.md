@@ -55,5 +55,5 @@ $$F_m(x) = F_{m-1}(x) + \eta \cdot \gamma_{lm} \mathbf{1}(x \in R_{lm})$$
 
 which is a math-y way of saying that at round m, 
 the prediction function is the previous round's prediction $F_{m−1}$ plus a scalar multiple η of the new prediction. 
-The expression $γlm1(x \in Rlm)$ represents the solution to an optimization and 
+The expression $γ_{lm1}(x \in Rlm)$ represents the solution to an optimization and 
 an indicator function for whether x is a member of that region.
