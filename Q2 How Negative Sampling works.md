@@ -1,4 +1,4 @@
-# How negative sampling works?
+# Q2. How negative sampling works?
 
 Word2vetor prevails in today's Natural Language Processing.
 
@@ -21,7 +21,7 @@ I mean. They changed the objective function!
 
 The original highe loss like sigma(p*log(Softmax(x))) objective function 
 
-is replaced by a hinge loss whose shape is like sigma(p*log(sigmoid(x))).
+is replaced by a maxmium likelyhood whose shape is like sigma(log(sigmoid(x))).
 
 As they claimed:
 >
@@ -29,3 +29,7 @@ As they claimed:
 >distinguish the target word wO from draws from the noise distribution Pn(w) 
 >using logistic regression, where there are k negative samples for each data sample.
 >
+
+As the above explanation, they use maxmium likely hood function without softmax, and they update the
+
+maxtrix directly with the sub optimization problem.
