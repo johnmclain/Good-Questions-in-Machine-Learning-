@@ -1,12 +1,3 @@
-Source:
-> https://stats.stackexchange.com/questions/354484/why-does-xgboost-have-a-learning-rate
-
-## To include the Equations 
-'''
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default">
-</script>
-'''
-
 ## Why does XGBoost have a learning rate?
 
 Description of the question: the XGBoost docs have a theoretical introduction to XGBoost and don't mention a learning rate anywhere. So 
