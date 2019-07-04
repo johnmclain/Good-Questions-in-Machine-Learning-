@@ -1,4 +1,4 @@
-Purpose for this repositary:
+# Purpose for this repositary:
 
 In studing machine learning, people has been concentrates on important topics, 
 yet I believe good questions not noly deals with the major topic but also the key details. 
