@@ -1,6 +1,6 @@
 # Purpose for this repositary:
 
-I believe key details are important complementaries to good understanding of complex machine learning models. To connect the dots, I collect questions that come to my mind in studing the models.
+Key details are indespensible to thorough understanding of machine learning phylosophies. I collect questions that may impede step of thoughts and that I thought really helpful in comprehend or use the models.
 
 It is wellcomed to contribute this repositary with new good questions or insighted answers.
 
