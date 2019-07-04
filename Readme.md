@@ -1,6 +1,9 @@
 # Purpose for this repositary:
 
 In studing machine learning, people has been concentrating on major topics like BP or Gredient Decient, 
-yet I believe good questions not noly deals with the major topic but also the key details. 
-To connect the dots, I collect the questions that I think good and share it with everyone. 
-Hope everyone have her dream job!
+yet I believe good questions not noly deals with the main logic but also the dots that address key details. 
+To connect the dots, I collect the questions come to my thought in understanding the models and I want to share it with everyone and discuss with everyone while I'm learning. 
+
+It is wellcomed to contribute this repositary with new good questions or insighted answers.
+
+Finally, hope everyone have her dream job!
